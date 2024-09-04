@@ -292,6 +292,7 @@ public class GenericStorageUnit<T> implements Collection<T> {
         return Collection.super.spliterator();
     }
 
+    // ... other Collection methods with default implementations or custom logic as needed
 
     public int getItemCount() {
         return items.size();
